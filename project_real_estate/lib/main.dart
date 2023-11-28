@@ -51,6 +51,7 @@ void main() async {
 
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: mainTheme,
       darkTheme: darkTheme,
       themeMode:
